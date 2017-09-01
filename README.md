@@ -1,2 +1,3 @@
-# daanmooij.nl
-personal website
+# daanmooij.github.io
+
+Personal website
