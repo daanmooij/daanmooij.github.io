@@ -1,19 +1,19 @@
 $(document).ready(function () {
     $('.fa-twitter').hover(function () {
-        $('#profile-pic').addClass('twitter');
+        $('#profile-pic').css('transform','rotate(-30deg)');
     }, function () {
-        $('#profile-pic').removeClass('twitter');
+        $('#profile-pic').css('transform','rotate(0deg)');
     });
 
     $('.fa-github').hover(function () {
-        $('#profile-pic').addClass('github');
+        $('#profile-pic').css('transform', 'rotate(30deg)');        
     }, function () {
-        $('#profile-pic').removeClass('github');
+        $('#profile-pic').css('transform', 'rotate(0deg)');        
     });
 
     $('.fa-linkedin').hover(function () {
-        $('#profile-pic').addClass('linkedin');
+        $('#profile-pic').css('transform', 'rotateY(180deg)');        
     }, function () {
-        $('#profile-pic').removeClass('linkedin');
+        $('#profile-pic').css('transform', 'rotate(0deg)');
     });
 });

@@ -1,31 +1,19 @@
 body {
-    background-color: #FFFFFF;
+    background-color: #e0e0e0;
 }
 
 #profile-pic {
-    width: 20em;
+    width: 17em;
     border-radius: 50%;
-    border: solid 1em #000000;
-    box-shadow: rgba(0,0,0,0.2) 0 0 1em;
-    margin-bottom: 2em; 
-}
-
-.github {
-    border-color:red !important;
-}
-
-.linkedin {
-    border-color: #0e76a8 !important;
-}
-
-.twitter {
-    border-color: #4099FF !important;
+    border: solid 0.618em #aeaeae;
+    box-shadow: rgba(0,0,0,0.2) 0 0 1.618em;
+    margin-bottom: 1.618em; 
 }
 
 li {
     list-style-type: none;
     display: inline-block;
-    margin: 2em;
+    margin: 1.618em;
 }
 
 ul {
@@ -38,5 +26,5 @@ ul {
 
 .fa {
     font-size: 4em;
-    color: #000000;
+    color: #aeaeae;
 }
