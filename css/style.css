@@ -5,7 +5,7 @@ body {
 #profile-pic {
     width: 17em;
     border-radius: 50%;
-    border: solid 0.618em #aeaeae;
+    border: solid 0.618em #ff4081;
     box-shadow: rgba(0,0,0,0.2) 0 0 1.618em;
     margin-bottom: 1.618em; 
 }
@@ -26,5 +26,5 @@ ul {
 
 .fa {
     font-size: 4em;
-    color: #aeaeae;
+    color: #424242;
 }
